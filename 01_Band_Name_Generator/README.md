@@ -4,11 +4,13 @@ The user wants a fun band name. The code aims to generate one by combining the c
 
 This is a simple interactive program. 🤔
 
+
 🎯 **Task:**
 
 The goal is to take two string inputs from the user: their city name 🏙️ and their pet's name 🐾. 
 
 Then, the code needs to concatenate these strings with a space in between and print the result as a potential band name. 🎸
+
 
 💻 **Action:**
 
@@ -16,6 +18,7 @@ The code first prints a welcome message 👋. Then, it uses the **input()** func
 storing these in the **city_name** and **pet_name** variables, respectively. 
 
 💾 Finally, it uses string concatenation (+) to combine the inputs with a space and prints the suggested band name. 🎤
+
 
 ✅ **Result:**
 
