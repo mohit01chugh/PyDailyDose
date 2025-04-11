@@ -6,7 +6,7 @@ The code prompts the user for their height 📏 in meters and weight 🏋️ in 
 
 **Task**
 
-The primary goal 🎯 is to calculate the BMI using the formula **BMI= {weight (kg)}}{\text{height (m)}^2}**
+The primary goal 🎯 is to calculate the BMI using the formula **BMI= {weight (kg)}/{height (m)}^2}**
 
 and then provide a basic interpretation 🤔 of the resulting BMI value based on standard weight categories 📊.
 
