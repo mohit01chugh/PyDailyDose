@@ -16,6 +16,7 @@ ________________________________________________________________________________
         
         Any other final colour choice ("red" ❤️ or "blue" 💙) would result in a "Game Over" 
         💀 message indicating the reason for failure 💥. 
+        
         Typing anything other than "red" ❤️, "blue" 💙, or "yellow" 💛 at the final door prompt 🚪 
         would result in the message "You typed the wrong input" ❓.
 ________________________________________________________________________________________________________________________________________________________________________
