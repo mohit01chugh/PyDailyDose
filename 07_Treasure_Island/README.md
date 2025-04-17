@@ -9,8 +9,8 @@ ________________________________________________________________________________
 **💡 The code executed these inputs sequentially**
         
         It checked the value of each input against the expected choices ✅/❌. 
-        If an incorrect choice was made (e.g., "right" ➡️ instead of "left" ⬅️), the game printed a "Game Over" 💀 and exited 🚪. 
-        If the correct choices were made up to the final door selection 🚪, the outcome depended on the colour chosen 🎨.
+        If an incorrect choice was made (e.g., "right" ➡️ instead of "left" ⬅️), game printed a "Game Over" 💀 and exited 🚪. 
+        If the correct choices were made up to the final door selection 🚪, outcome depended on the colour chosen 🎨.
 ________________________________________________________________________________________________________________________________________________________________________
 **🏆  If the user typed "left" ⬅️, then "wait" ⏳, and finally "yellow" 💛, the output would be "You Win!" 🎉.**
         
