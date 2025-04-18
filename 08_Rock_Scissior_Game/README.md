@@ -10,7 +10,7 @@ ________________________________________________________________________________
                         3) Compare the choices and determine the winner 🏆, handling invalid user input 🚫 and ties 🤝. 
                         4) Display the choices made by both the user 👤 and the computer 🤖, along with the result 🎉.
 
-________________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________________________________________________
 💡 **The code first prompts the user for their choice and stores it. Then, it uses random.randint(0, 2) to generate the computer's choice 🎲.**
         
         It uses a list of images to store ASCII art representations of Rock 🪨, Paper 📄, and Scissors ✂️ for visual output 🖼️. 
@@ -23,7 +23,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________________________________________________________________________
 🏆 **The code successfully simulates the Rock 🪨, Paper 📄, Scissors ✂️ game.**
         
-        It handles valid 👍 and invalid 👎 user inputs ⌨️, generates random computer choices 🎲, 
-        and accurately determines the winner 🏆 based on the game's rules, and provides clear output 📢 showing the choices and the result 🎉
+        It handles valid 👍 and invalid 👎 user inputs ⌨️, and generates random computer choices 🎲. 
+        Accurately determines the winner 🏆 based on the game's rules, and provides clear output 📢 showing the result 🎉
 
 ________________________________________________________________________________________________________________________________________________________________________
