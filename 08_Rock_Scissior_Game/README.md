@@ -5,12 +5,9 @@ ________________________________________________________________________________
 
 🎯 **The code needs to:** 
                         
-                        1) Get the user's choice (Rock 🪨, Paper 📄, or Scissors ✂️). 
-                        
+                        1) Get the user's choice (Rock 🪨, Paper 📄, or Scissors ✂️).    
                         2) Generate a random choice 🎲 for the computer 🤖.
-                        
                         3) Compare the choices and determine the winner 🏆, handling invalid user input 🚫 and ties 🤝. 
-                        
                         4) Display the choices made by both the user 👤 and the computer 🤖, along with the result 🎉.
 
 ________________________________________________________________________________________________________________________________________________________________________
