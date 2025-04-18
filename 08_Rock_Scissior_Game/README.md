@@ -1,7 +1,7 @@
 🔍 **Simulates a game of Rock 🪨, Paper 📄, Scissors ✂️ between a user 👤 and the computer 🤖.**
      
         It takes user input ⌨️, generates a random computer choice 🎲, and determines the winner 🏆 based on the game's rules.
-________________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________________________
 
 🎯 **The code needs to:** 
                         
@@ -23,7 +23,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________________________________________________________________________________
 🏆 **The code successfully simulates the Rock 🪨, Paper 📄, Scissors ✂️ game.**
         
-        It handles valid 👍 and invalid 👎 user inputs ⌨️, generates random computer choices 🎲, accurately 
-        determines the winner 🏆 based on the game's rules, and provides clear output 📢 showing the choices and the result 🎉 to the user 👤.
+        It handles valid 👍 and invalid 👎 user inputs ⌨️, generates random computer choices 🎲, 
+        and accurately determines the winner 🏆 based on the game's rules, and provides clear output 📢 showing the choices and the result 🎉
 
 ________________________________________________________________________________________________________________________________________________________________________
