@@ -18,62 +18,67 @@ a8"     "" 88 88P'    "8a 88P'    "8a a8P_____88 88P'   "Y8
 
 import string
 import sys
+
+# Create a list of lowercase alphabet letters
 alphabet = list(string.ascii_lowercase)
 
 def positions(num):
-        indexing = []
-        for char in msg:
-            if char in alphabet:
-                indexi = alphabet.index(char) + num
-                if indexi > 25:
-                     indexi = indexi - len(alphabet)
-                indexing.append(indexi)   
-            elif char == " ":
-                space = "+"
-                indexing.append(space)
+    indexing = []  # List to hold the shifted positions of characters
+    for char in msg:
+        if char in alphabet:  # Check if the character is a letter
+            indexi = alphabet.index(char) + num  # Shift the index by num
+            if indexi > 25:  # Wrap around if index exceeds alphabet length
+                indexi = indexi - len(alphabet)
+            indexing.append(indexi)   
+        elif char == " ":  # Handle spaces
+            space = "+"
+            indexing.append(space)
 
-        actual = []
-        for value in range(len(indexing)):
-             new = indexing[value]
-             if new is "+":
-                  actual.append("+")
-             else:
-                  new_inv = int(new)
-                  actext = alphabet[new_inv]
-                  actual.append(actext)
-
-        joining = "".join(actual)
-        fjoin = joining.replace("+"," ")
-
-        if task == "0":
-             print(f"Here's the Encoded result:{fjoin}")
+    actual = []  # List to hold the final characters
+    for value in range(len(indexing)):
+        new = indexing[value]
+        if new is "+":  # Check for space placeholder
+            actual.append("+")
         else:
-             print(f"Here's the Decoded result:{fjoin}")
+            new_inv = int(new)  # Convert index back to character
+            actext = alphabet[new_inv]
+            actual.append(actext)
 
-continue_check = True
+    joining = "".join(actual)  # Join the characters into a string
+    fjoin = joining.replace("+", " ")  # Replace placeholder with spaces
+
+    # Print the encoded or decoded result based on the task
+    if task == "0":
+        print(f"Here's the Encoded result: {fjoin}")
+    else:
+        print(f"Here's the Decoded result: {fjoin}")
+
+continue_check = True  # Control variable for the main loop
 
 while continue_check:
+    # Prompt user for task selection
+    task = int(input('''Type '0' for "encode" to encrypt, type '1' for "decode" to decrypt:\n'''))
+    if task > 1:  # Validate input
+        print("Please Enter the Valid Input")
+        sys.exit()
 
-          task = int(input('''Type '0' for "encode" to encrypt, type '1' for "decode" to decrypt:\n'''))
-          if task > 1:
-               print("Please Enter the Vaild Input")
-               sys.exit()
-
-          in_msg = input("Type your message:\n")
-          shift = int(input("Type the shift number:\n"))
-          msg = list(in_msg)
-          
-          if (task == 0):
-               positions(shift)
-          else:
-               minus_shift = - shift
-               positions(minus_shift)
-               
-          restart = input("Type 'yes' if you want to go again. Otherwise, type 'no':\n")
-          if restart == "no":
-               continue_check = False
-               print("Good Bye for now!!!")
-               sys.exit()
+    in_msg = input("Type your message:\n")  # Get the message from user
+    shift = int(input("Type the shift number:\n"))  # Get the shift value
+    msg = list(in_msg)  # Convert message to a list of characters
+    
+    # Call positions function with appropriate shift
+    if (task == 0):
+        positions(shift)  # Encode
+    else:
+        minus_shift = -shift  # Decode by negating the shift
+        positions(minus_shift)
+        
+    # Ask user if they want to continue
+    restart = input("Type 'yes' if you want to go again. Otherwise, type 'no':\n")
+    if restart == "no":
+        continue_check = False  # Exit loop if user chooses not to continue
+        print("Good Bye for now!!!")
+        sys.exit()
           
           
 
