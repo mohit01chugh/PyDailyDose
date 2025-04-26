@@ -1,3 +1,4 @@
+# Dictionary to store student scores
 student_scores = {
     'Harry': 88,
     'Ron': 78,
@@ -6,8 +7,10 @@ student_scores = {
     'Neville': 60
 }
 
+# Dictionary to store student grades based on scores
 student_grades = {}
 for key, values in student_scores.items():
+    # Assign grades based on score ranges
     if values > 91:
         grades = "Outstanding"
         student_grades[key] = grades
@@ -20,4 +23,6 @@ for key, values in student_scores.items():
     else:
         grades = "Fail"
         student_grades[key] = grades
+
+# Print the dictionary of student grades
 print(student_grades)
