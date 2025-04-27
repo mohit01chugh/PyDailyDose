@@ -12,7 +12,8 @@ ________________________________________________________________________________
 
 💡 **The while loop 🔄 allows continuous calculations.**
 
-        It calls cal() to get a result (ot). The user is then prompted to continue with ot or start anew, clearing the 🖥️ screen if they choose 'n' and asking for a new first 🔢 number.
+        It calls cal() to get a result (ot). The user is then prompted to continue with ot or start anew, 
+        clearing the 🖥️ screen if they choose 'n' and asking for a new first 🔢 number.
 ______________________________________________________________________________________________________________________________________________________________________
 
 🏆 **Enables users to perform multiple calculations sequentially, using the previous result**
